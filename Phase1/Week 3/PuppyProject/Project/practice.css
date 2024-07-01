@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* calling inner */
+
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(203, 192, 192);
+    width: 960px;
+    height:400px;
+    margin: 40px auto;
+
+}
+/*  box */
+.boxes{
+    width: 200px;
+    height: 200px;
+    border:solid 5px white;
+    
+}
+/* green */
+.green{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* inside green */
+.small-yellow{
+    background-color: rgb(239, 239, 44);
+    width:100px;
+    height: 100px;
+    border:solid 5px rgb(255, 255, 255);
+}
+.large-yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;  
+}
+p{
+   padding:87px;
+   text-align: center;
+}

@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+img{
+    width:100%
+}
+/* background for footer and header */
+.bg{
+    background-color: #195774;
+    font-size: 30px;
+    padding:10px;
+    text-align: center;
+    color:white; 
+}
+#first{
+    margin-bottom:40px;
+}
+/* the first image */
+#photo3{
+    height:100%;
+}
+/* the second section with the 2 puppy files*/
+header{
+    position:fixed;
+    width:100%;
+}
+#second{
+    display:flex;
+    justify-content:space-between;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 40;
+    
+}
+
+/* section 2 with the text puppy missing here */
+.text{
+    background-color: #ee4d65;
+    
+    width: 310px;
+    height:310px;
+    
+}
+.text p{
+    padding:50px;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+/* third section with text More puppies*/
+#tex2{
+    margin-bottom :10px;
+    text-align:center;
+    font-size: 45px;
+    
+}
+/* class name for the last 2 images */
+.last{
+    display: flex;
+    justify-content:space-between;
+    width:960px;
+    margin:0 auto;  
+    margin-bottom:0px;
+    padding-bottom: 40px;
+}
+/* class name for the text "Developed By Selam "*/
+.text2{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top: 30px;
+    padding-bottom:30px;
+
+}
+
